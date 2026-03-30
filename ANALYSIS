@@ -8,6 +8,7 @@ HTTP packets contain readable data, which shows that it is not secure.
 
 3. TCP Communication:
 TCP establishes connection using SYN, SYN-ACK, ACK process.
+tcp.flags.syn == 1
 
 Observation:
 When I searched "google.com", I observed DNS query packets followed by HTTP requests.

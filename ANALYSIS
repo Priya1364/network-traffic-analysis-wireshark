@@ -16,3 +16,6 @@ When I searched "google.com", I observed DNS query packets followed by HTTP requ
 Inference:
 This shows that DNS resolution happens before accessing a website.
 
+Observation:
+DNS request was sent to resolve google.com.
+This shows how domain names are converted into IP addresses.

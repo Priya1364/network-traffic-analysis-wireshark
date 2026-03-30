@@ -1,0 +1,13 @@
+User → DNS Request → DNS Server → IP Address
+      ↓
+   HTTP Request → Web Server → Response
+      ↓
+   Wireshark Captures Packets
+
+
+Use Case:
+
+In a SOC environment, analysts use Wireshark to detect:
+- Suspicious DNS queries
+- Malware communication
+- Data exfiltration

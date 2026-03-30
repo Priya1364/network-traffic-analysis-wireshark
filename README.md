@@ -20,6 +20,10 @@ Methodology:
    - http
    - tcp
 5. Observed packet details
+   
+   Protocols Observed:
+- DNS → Used for domain name resolution
+- HTTP → Used for web communication
 
 Analysis:
 

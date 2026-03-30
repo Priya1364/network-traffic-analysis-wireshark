@@ -1,0 +1,9 @@
+# SOC Analyst Perspective
+If this was a real SOC environment, I would:
+
+1. Check for unknown domains
+2. Identify repeated failed connections
+3. Look for unusual IP addresses
+4. Monitor high traffic volume
+
+This helps in detecting possible attacks.

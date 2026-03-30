@@ -1,0 +1,7 @@
+#Security Observation
+
+From a security perspective, DNS traffic is important because attackers may use malicious domains.
+
+HTTP traffic is not encrypted, so sensitive data can be visible.
+
+SOC analysts must monitor unusual DNS requests or unknown IP communication.

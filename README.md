@@ -35,15 +35,24 @@ TCP Analysis:
 - Observed connection establishment (SYN, ACK)
 - TCP ensures reliable communication
 
+  Observation:
+DNS request was sent to resolve google.com.
+This shows how domain names are converted into IP addresses.
+
+ Security Insight:
+ - DNS traffic can be used to detect suspicious domains in cyber attacks.
+
 Key Findings:
 - Every website request starts with DNS query
 - HTTP traffic is readable (not secure)
 - TCP ensures packet delivery
-
-Conclusion:
-This project helped in understanding how network communication happens and how Wireshark can be used to analyze traffic. It is useful for detecting suspicious activity in cybersecurity.
-
+  
 Future Improvement:
 - Analyze HTTPS traffic
 - Detect malicious packets
 - Use advanced filters
+  
+Conclusion:
+This project helped in understanding how network communication happens and how Wireshark can be used to analyze traffic. It is useful for detecting suspicious activity in cybersecurity.
+
+

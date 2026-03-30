@@ -1,32 +1,49 @@
-Project Title
-Network Traffic Analysis using Wireshark
-🎯 Objective
-To capture and analyze network traffic and identify basic communication patterns using Wireshark.
-🛠 Tools Used
-Wireshark
-📊 Steps Performed
-Installed Wireshark
-Selected Wi-Fi interface
-Captured live network traffic
-Generated traffic using browser (Google search)
-Applied filters:
-DNS
-HTTP
-TCP
-Analyzed packet details
-🔍 Analysis
-DNS requests were observed when accessing websites
-Source IP: (your IP)
-Destination IP: Google server IP
-HTTP packets show communication between client and server
-TCP protocol ensures reliable data transmission
-🚨 Findings
-Normal user traffic was observed
-No suspicious or malicious packets detected
-DNS queries resolved domain names successfully
-📚 Key Learning
-Understood packet structure
-Learned filtering techniques
-Learned how network communication happens
-🏁 Conclusion
-Wireshark helps in analyzing network traffic and is useful for detecting suspicious activity in cybersecurity monitoring.
+Project Name: Network Traffic Analysis using Wireshark
+
+Introduction:
+This project focuses on capturing and analyzing network traffic using Wireshark. The aim is to understand how data packets travel across a network and identify basic protocols like DNS, HTTP, and TCP.
+
+Objective:
+- To capture live network traffic
+- To analyze different types of packets
+- To understand protocol behavior
+
+Tools Used:
+- Wireshark
+
+Methodology:
+1. Installed Wireshark
+2. Started packet capture on Wi-Fi interface
+3. Generated traffic by browsing websites
+4. Applied filters such as:
+   - dns
+   - http
+   - tcp
+5. Observed packet details
+
+Analysis:
+
+DNS Analysis:
+- Observed DNS queries when accessing websites
+- DNS converts domain names into IP addresses
+
+HTTP Analysis:
+- Observed HTTP requests and responses
+- Data is visible because HTTP is not encrypted
+
+TCP Analysis:
+- Observed connection establishment (SYN, ACK)
+- TCP ensures reliable communication
+
+Key Findings:
+- Every website request starts with DNS query
+- HTTP traffic is readable (not secure)
+- TCP ensures packet delivery
+
+Conclusion:
+This project helped in understanding how network communication happens and how Wireshark can be used to analyze traffic. It is useful for detecting suspicious activity in cybersecurity.
+
+Future Improvement:
+- Analyze HTTPS traffic
+- Detect malicious packets
+- Use advanced filters

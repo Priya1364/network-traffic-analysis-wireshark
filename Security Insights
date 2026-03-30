@@ -1,0 +1,5 @@
+Security Insight:
+
+- HTTP traffic is not encrypted, so attackers can read data.
+- DNS queries can be used to track user activity.
+- Packet analysis helps in identifying suspicious communication.
